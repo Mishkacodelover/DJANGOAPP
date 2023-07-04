@@ -1,10 +1,10 @@
 body {
   display: flex;
+  max-width: 1300px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  height: 100vh;
+  box-sizing: border-box;
   background-color: hsl(204 100% 5%);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,11 +13,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  box-sizing: border-box;
   padding: 50px;
-  padding-top: 100px;
-  height: 60px;
-  font-size: 72px;
+  padding-top: 60px;
+
+  font-size: 36px;
   color: #71632d;
 }
 
@@ -32,7 +32,7 @@ header,
 ul {
   background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
 
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
